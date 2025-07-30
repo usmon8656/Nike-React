@@ -1,0 +1,129 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav .container{
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  gap: 80px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 80px;
+}
+
+nav ul a{
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.hero .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.hero_info{
+  width: 50%;
+}
+
+h1{
+  color: #2D2B2C;
+  font-size: 72px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.hero_info>p{
+   font-size: 18px;
+   font-weight: 300;
+   color: #2D2B2C;
+   width: 80%;
+   margin-bottom: 35px;
+}
+
+.hero_info button{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 16px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: #2D2B2C;
+  border-radius: 20px;
+  border: none;
+}
+
+.hero_info button p {
+  border: rgb(145, 144, 144) solid 1px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.hero_price {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 30px;
+  color: #2D2B2C;
+}
+
+.hero_img{
+  border-radius: 50px;
+  height: 500px;
+  width: 50%;
+}
+
+.hero_img img{
+  border-radius: 50px;
+  height: 100%;
+  width: 100%;
+}
+
+footer{
+  background-color: #F6F0F085;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+footer .imgs{
+  display: flex;
+  gap: 30px;
+
+}
+
+footer .imgs img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+footer .imgs img:hover {
+    border: #2D2B2C solid 1px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h3{
+  color: #877C78;
+}
