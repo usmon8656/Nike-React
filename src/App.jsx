@@ -4,9 +4,9 @@ import './App.css'
 function App() {
 
   const [arr, setArr] = useState([
-    'public/img/img_1.png',
-    'public/img/img_2.png',
-    'public/img/img_3.png'
+    '/img/img_1.png',
+    '/img/img_2.png',
+    '/img/img_3.png'
   ])
 
   const [mainImg, setImg] = useState('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAIteqyPc1rxqlzXnahAzSAiNy2vJyaEPIfQ&s')
@@ -21,7 +21,7 @@ function App() {
         <nav>
           <div className="container">
             <div className="logo">
-              <img src="public/img/Nike logo.svg" alt="" />
+              <img src="/img/Nike logo.svg" alt="" />
             </div>
             <ul>
               <li><a href="">Women</a></li>
